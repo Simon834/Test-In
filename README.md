@@ -1,6 +1,6 @@
 # Test-Intcomex
 
-Esta aplicacion fue elaborada utilizando React.js, node.js, y postgreSQL.
+Esta aplicacion fue elaborada utilizando React.js, node.js, y postgreSQL y empleando el patron Model View Controller.
 
 Despues de clonar el repo por favor seguir las intrucciones listadas acontinuacion para su apropiado funcionamiento.
 
