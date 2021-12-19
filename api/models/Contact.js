@@ -11,6 +11,7 @@ module.exports = (sequelize) => {
     user: {
       type: DataTypes.STRING,
       allowNull: false,
+      primaryKey: true,
     },
     name: {
       type: DataTypes.STRING,
@@ -21,7 +22,7 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     phone: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     email: {
@@ -29,7 +30,7 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     cellphone: {
-      type: DataTypes.STRING,
+      type: DataTypes.BIGINT,
       allowNull: false,
     },
     contactType: {
@@ -49,6 +50,10 @@ module.exports = (sequelize) => {
     },
     infoSend: {
       type: DataTypes.BOOLEAN,
+    },
+    password: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
   });
 };
